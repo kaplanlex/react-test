@@ -1,6 +1,9 @@
-import { Alert } from "./Alert";
-import Product from "./Product";
-import ClickCounter from "./Handle";
+import { Alert } from "../Alert/Alert";
+import Product from "../Product/Product";
+import ClickCounter from "../Handle/Handle";
+import LoginForm from "../LoginForm/LoginForm";
+import MyComponent from "../MyComponent/MyComponent";
+
 
 export default function App() {
   return (
@@ -32,7 +35,8 @@ export default function App() {
         />
       </div>
       <ClickCounter />
-
+      <LoginForm />
+      <MyComponent />
     </>
   );
 }
